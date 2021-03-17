@@ -1,0 +1,51 @@
+body,html{
+    margin:0;
+    padding:0;
+}
+header{
+    width:100%;
+    height:60px;
+    background-color: #282828;
+}
+
+.logo-image img{
+    position: absolute;
+    padding: 0px;
+    float: left;
+    margin-left: -18px;
+    margin-top: 6px;
+    
+    
+}
+ul{
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+
+li{
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+a{
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Open Sans" , sans-serif;
+    font-size: 1.2vw;
+}
+
+a:hover{
+    color: #F0c330;
+    transition: 0,5s;
+}
+
+.image-container {
+    transition:width 0.5s;
+transition:length 0.5s;
+}
+
+.image-container {
+    transition-timing-function: ease-in;
+}
