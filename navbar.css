@@ -41,11 +41,3 @@ a:hover{
     transition: 0,5s;
 }
 
-.image-container {
-    transition:width 0.5s;
-transition:length 0.5s;
-}
-
-.image-container {
-    transition-timing-function: ease-in;
-}
